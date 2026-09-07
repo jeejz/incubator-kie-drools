@@ -34,7 +34,7 @@
   <properties>
     <!-- Used to define which poms are allowed to have dependencyManagement sections. This is to enforce the convention that only the root pom should have dependencyManagement, and all other poms should inherit from it. -->
     <allowedPomsList>org.kie.kogito:kogito-spring-boot-bom</allowedPomsList>
-    <!-- Aligned with Spring Boot Cloud (spring-cloud-kubernetes-fabric8 5.0.1 declares fabric8 7.4.1) -->
+    <!-- Aligned with Spring Boot Cloud (spring-cloud-kubernetes-fabric8 5.0.1 declares fabric8 7.4.0) -->
     <version.io.fabric8>7.4.0</version.io.fabric8>
     <version.io.netty>4.2.17.Final</version.io.netty>
     <version.jakarta.servlet>6.0.0</version.jakarta.servlet>
